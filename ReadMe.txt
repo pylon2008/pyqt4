@@ -1,0 +1,1 @@
+C:\Python27\Lib\site-packages\PyQt4>pyuic4.bat -o "D:\WorkStation\Git\Hub\pyqt4\test.py" "D:\WorkStation\Git\Hub\pyqt4\test.ui"
