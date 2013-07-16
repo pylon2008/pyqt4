@@ -14,6 +14,7 @@ class Ui(QtGui.QDialog):
         self.ui.setupUi(self)
         
     def beginSearch(self):  
+        self.initCombobox()
         stri = self.ui.m_targetURL.toPlainText()
         row = 2
         col = 5
@@ -29,6 +30,10 @@ class Ui(QtGui.QDialog):
                 self.ui.tableWidget.setItem(i,j,item)
         self.ui.tableWidget.show()
         self.show()
+        
+    def initCombobox(self):
+        self.ui.m_Type.addItem("aaaa")
+        self.ui.m_Type.addItem("bbbb")
 
 if __name__ == '__main__':
     import sys
